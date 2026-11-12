@@ -63,9 +63,16 @@ def im(i,alt,ratio='3/4',cls='',pos='50% 25%'):
 def mos(items,cls='mos'):
     return f'<div class="{cls}">'+''.join(im(i,a,r,pos=p) for i,a,r,p in items)+'</div>'
 
-CLIENTS=['Burger King (Беларусь)','Sbarro (Италия)','МинскКристаллТрейд','Marriott hotel','РУП «Белгоспроект»','BELITSOFT','Renaissance hotel','Hyatt Regency','Научно-технологический парк БНТУ «Политехник»','beCloud','EKT','Первый импортер Xiaomi в Беларуси','Все ведущие вузы страны']
+CLIENTS=[('burgerking','Burger King','Беларусь'),('sbarro','Sbarro','Италия'),('mkt','МинскКристаллТрейд',''),('marriott','Marriott','hotel'),('belgosproekt','Белгоспроект','РУП'),('belitsoft','BELITSOFT',''),('renaissance','Renaissance','hotel'),('hyatt','Hyatt Regency',''),('politech','Политехник','Научно-технологический парк БНТУ'),('becloud','beCloud',''),('ekt','EKT',''),('xiaomi','Xiaomi','первый импортер в Беларуси'),('vuz','Вузы страны','все ведущие')]
+import os
+def _logo(k,n,sub):
+    for ext in ('svg','png','webp'):
+        if os.path.exists(f'{OUT}/assets/logos/{k}.{ext}'):
+            return f'<span class="lg lg--img"><img src="assets/logos/{k}.{ext}" alt="{n}" loading="lazy"></span>'
+    return f'<span class="lg lg--{k}"><b>{n}</b>'+(f'<small>{sub}</small>' if sub else '')+'</span>'
 def clients(dark=False):
-    return '<div class="chips chips--cl sr">'+''.join(f'<span class="chip">{c}</span>' for c in CLIENTS)+'</div>'
+    row=''.join(_logo(*c) for c in CLIENTS)
+    return f'<div class="lgs sr" aria-label="Мне доверяют"><div class="lgs__track">{row}{row}</div></div>'
 
 REASONS=[("Современный стиль ведения","Без нафталина и шаблонных сценариев."),("Актуальные развлечения","Интерактивы, которые нравятся гостям сегодня."),("Уместный юмор","Шутки, которые работают для вашей аудитории."),("Современная подача традиций","Традиции в новом, живом формате."),("Мультимедийный формат","Экраны, видео, музыка и свет работают на программу."),("Оригинальные сценарные ходы","Авторские идеи под ваш праздник."),("Умение найти язык с каждым гостем","От юбиляра до самых юных гостей."),("Свадьбы по всему миру","Готов оказаться в любой точке мира.")]
 def reasons():
