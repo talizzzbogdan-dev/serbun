@@ -154,8 +154,11 @@ home=f'''<section class="hero" id="hero">
   </div>
   <aside class="avail rv" style="--d:2">
     <small><i class="dot"></i>Принимаю заявки</small>
-    <b>Три пакета</b>
-    <span class="s">Лайт от 1 500 руб., «Всё включено» от 3 000 руб., под ключ — договорная.</span>
+    <ul class="avail__list">
+      <li><span>Лайт</span><em>от 1 500 руб.</em></li>
+      <li><span>Всё включено</span><em>от 3 000 руб.</em></li>
+      <li><span>Под ключ</span><em>договорная</em></li>
+    </ul>
   </aside>
   <div class="cue" aria-hidden="true"></div>
 </section>
