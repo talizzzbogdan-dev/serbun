@@ -277,7 +277,7 @@ themes=[('Мексиканский','Яркий, жаркий, с характе
 th=phead('Образы',['Праздник в','<em>любом образе</em>'],'Под выбранную тему готовлю костюмированный образ ведущего, манеру подачи, тематические элементы программы и развлечения. Каждую концепцию разрабатываем отдельно.','Образы','Образ')
 th+='<section class="sec sec--tight"><div class="wrap"><div class="tk">'
 for i,(n,d) in enumerate(themes,1):
-    pic={1:(74,'50% 30%'),2:(91,'50% 8%'),3:(90,'50% 30%'),4:(70,'40% 30%')}.get(i)
+    pic={1:(74,'50% 30%'),2:(91,'50% 50%'),3:(90,'50% 30%'),4:(70,'40% 30%')}.get(i)
     box=im(pic[0],'Образ: '+n,'4/3',pos=pic[1]) if pic else '<div class="ph" style="aspect-ratio:4/3"><span>Фото образа</span></div>'
     th+=f'<div class="tk__row sr" style="grid-template-columns:90px minmax(0,4fr) minmax(0,3fr) minmax(0,3fr);align-items:center"><span class="tk__n">{i:02d}</span><h3>{n}</h3><p>Костюмированный образ ведущего, манера подачи и элементы программы под тему «{n.lower()}».</p>{box}</div>'
 th+=f'''<div class="tk__row sr" style="grid-template-columns:90px minmax(0,4fr) minmax(0,6fr)"><span class="tk__n">05</span><h3>Ваша идея</h3><p>Совершенно необычная концепция? Придумаем вместе и разработаем отдельно под ваш праздник и вашу компанию.</p></div>
