@@ -46,7 +46,7 @@ def footer():
     links=''.join(f'<a href="{h}">{t}</a>' for h,t in NAV)
     return f'''<footer class="foot2">
   <div class="foot2__grid">
-    <div><b>Александр Сербун</b><p>Ведущий · организатор мероприятий · праздники под ключ. Свадьбы, юбилеи, дни рождения, новогодние вечера, корпоративы.</p></div>
+    <div><b>Александр Сербун</b><p>Ведущий · организатор · праздники под ключ. Свадьбы, юбилеи, дни рождения, новогодние вечера, корпоративы.</p></div>
     <div><h4>Разделы</h4><a href="index.html">Главная</a>{links}<a href="contacts.html">Контакты</a></div>
     <div><h4>Связаться</h4><a href="{TEL}">{PHONE}</a><a href="contacts.html">Форма заявки</a></div>
   </div>
@@ -185,7 +185,7 @@ home=f'''<section class="hero" id="hero">
       <a class="tk__row has-arrow sr" href="themes.html"><span class="tk__n">03</span><h3>Праздник в любом образе</h3><p>Мексиканский, кавказский, гангстерский, ретро: костюмированный образ ведущего.</p>{ARROW}</a>
       <a class="tk__row has-arrow sr" href="services.html"><span class="tk__n">04</span><h3>Услуги и цены</h3><p>Что входит в пакеты? Фото и видео, артисты и организация под ключ.</p>{ARROW}</a>
       <a class="tk__row has-arrow sr" href="gallery.html"><span class="tk__n">05</span><h3>Видео и фото</h3><p>Как это выглядит на самом деле.</p>{ARROW}</a>
-      <a class="tk__row has-arrow sr" href="about.html"><span class="tk__n">06</span><h3>Обо мне</h3><p>Ведущий, организатор мероприятий, праздники под ключ.</p>{ARROW}</a>
+      <a class="tk__row has-arrow sr" href="about.html"><span class="tk__n">06</span><h3>Обо мне</h3><p>Ведущий, организатор, праздники под ключ.</p>{ARROW}</a>
     </div>
   </div>
 </section>
@@ -363,7 +363,7 @@ gal+='</div></div></section><div class="lb" id="lb"><img alt=""></div>'+cta()
 page('gallery.html','Видео и фото · Александр Сербун','Видео и фотографии с мероприятий: свадьбы, корпоративы, юбилеи.','gallery.html',gal)
 
 # ============ ABOUT ============
-ab=phead('Обо мне',['Александр','<em>Сербун</em>'],'Ведущий, организатор мероприятий, праздники под ключ.','Обо мне','Обо мне')
+ab=phead('Обо мне',['Александр','<em>Сербун</em>'],'Ведущий, организатор, праздники под ключ.','Обо мне','Обо мне')
 ab+=f'''<section class="sec sec--tight">
   <div class="wrap about">
     <div class="about__img sr"><img src="img/p/64.jpg" alt="Александр Сербун" style="object-position:50% 8%"></div>
