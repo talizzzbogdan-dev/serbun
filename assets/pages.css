@@ -186,3 +186,7 @@ a.tk__row:hover .tk__arrow{transform:translate(6px,-6px)}
 .tbig b{display:block;font-family:var(--serif);font-weight:500;font-size:clamp(64px,8vw,120px);line-height:.95;letter-spacing:-.03em;font-variant-numeric:lining-nums;font-feature-settings:"lnum" 1}
 .tbig p{margin-top:14px;color:#aeada9;font-size:16px;line-height:1.45}
 @media(max-width:700px){.tbig{grid-template-columns:1fr}}
+.tier__price{font-family:var(--serif);font-size:clamp(26px,2.4vw,34px);color:var(--accent);margin:0 0 14px;white-space:nowrap}
+.tier li b{font-weight:600}
+.tier li span{display:block;margin-top:3px;font-size:14px;color:var(--muted);line-height:1.45}
+.tier--hot li span{color:#aeada9}
