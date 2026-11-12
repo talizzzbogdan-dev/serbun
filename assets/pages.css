@@ -181,3 +181,8 @@ a.tk__row:hover .tk__arrow{transform:translate(6px,-6px)}
 .proj b{font-family:var(--serif);font-weight:500;font-size:clamp(22px,2.2vw,32px);line-height:1.15}
 .proj span{color:var(--muted);font-size:15.5px;line-height:1.5}
 @media(max-width:900px){.tstats{grid-template-columns:repeat(2,minmax(0,1fr))}.proj li{grid-template-columns:1fr;gap:8px}}
+.tbig{margin:44px 0 34px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.tbig>div{padding:34px 34px 30px;border-radius:26px;background:#121212;color:#fff}
+.tbig b{display:block;font-family:var(--serif);font-weight:500;font-size:clamp(64px,8vw,120px);line-height:.95;letter-spacing:-.03em;font-variant-numeric:lining-nums;font-feature-settings:"lnum" 1}
+.tbig p{margin-top:14px;color:#aeada9;font-size:16px;line-height:1.45}
+@media(max-width:700px){.tbig{grid-template-columns:1fr}}
