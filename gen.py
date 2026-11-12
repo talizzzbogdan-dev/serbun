@@ -205,7 +205,7 @@ wed+=f'''<section class="sec sec--tight">
   </div>
 </section>
 <section class="sec" id="package">{pkg_block('Что входит')}</section>
-<section class="sec sec--tight"><div class="wrap"><div class="kick">Из свадеб</div>{mos([(71,'Выездная церемония','3/4','60% 30%'),(51,'Свадебный вечер','3/4','80% 30%'),(41,'Танцы на лужайке','3/4','50% 40%'),(9,'Тост на свадьбе','3/4','50% 30%')])}</div></section>
+<section class="sec sec--tight"><div class="wrap"><div class="kick">Из свадеб</div>{mos([(71,'Выездная церемония','3/4','60% 30%'),(45,'Невеста на свадьбе','3/4','50% 50%'),(63,'Ведущий на свадьбе','3/4','50% 30%'),(9,'Тост на свадьбе','3/4','50% 30%')])}</div></section>
 <section class="sec sec--dark">
   <div class="wrap about">
     <div class="sr"><div class="kick">Фото и видео</div><h2 class="h2">Ваша свадьба <em>в кадре</em></h2>
@@ -339,7 +339,7 @@ ab+=f'''<section class="sec sec--tight">
     </div>
   </div>
 </section>
-<section class="sec sec--tight"><div class="wrap">{mos([(48,'Александр Сербун','3/4','50% 25%'),(68,'Александр Сербун','3/4','50% 40%'),(19,'Александр Сербун','3/4','60% 50%'),(3,'Александр Сербун','3/4','50% 25%')])}</div></section>
+<section class="sec sec--tight"><div class="wrap">{mos([(48,'Александр Сербун','3/4','50% 25%'),(68,'Александр Сербун','3/4','50% 40%'),(52,'Александр Сербун','3/4','50% 40%'),(6,'Александр Сербун','3/4','50% 40%')])}</div></section>
 <section class="sec">
   <div class="wrap">
     <div class="kick">Выбрав меня, вы получите</div>
