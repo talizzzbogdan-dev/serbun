@@ -374,7 +374,7 @@ ab+=f'''<section class="sec sec--tight">
       <p class="sub" style="margin-top:14px">Шоумен, ведущий и креативный вдохновитель необычных эмоций, безудержного кутежа и смелых творческих явлений. <em style="color:var(--accent)">Витиевато? Ладно, ближе к делу!</em></p>
       <p class="sub" style="margin-top:14px">Более 260 лет в шоу-бизнесе. Видел всё: и слёзы счастья, и слёзы от счёта в ресторане. Веду скромные дни рождения и большие шоу. От «Машенька, задуй свечи» до «Маэстро, свет!» — я в теме.</p>
       <p class="sub" style="margin-top:14px">Работаю в паре со своим DJ и всегда готовим вам подарок.</p>
-      <div class="chips"><span class="chip">15+ лет опыта</span><span class="chip">Instagram: serbunby</span></div>
+      <div class="chips"><span class="chip">Instagram: serbunby</span></div>
     </div>
   </div>
 </section>
