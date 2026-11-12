@@ -171,3 +171,13 @@ a.tk__row:hover .tk__arrow{transform:translate(6px,-6px)}
 .lg--becloud b,.lg--xiaomi b{font-family:var(--sans);font-weight:700;text-transform:none}
 .lg--img img{max-height:52px;max-width:150px;object-fit:contain;filter:brightness(0) invert(1);opacity:.9}
 @media(prefers-reduced-motion:reduce){.lgs__track{animation:none}}
+.tstats{margin-top:44px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.tstats>div{padding:28px 26px;border-radius:22px;background:#fff;box-shadow:inset 0 0 0 1.5px rgba(14,14,14,.12)}
+.tstats b{display:block;font-family:var(--serif);font-weight:500;font-size:clamp(44px,5vw,72px);line-height:1;color:var(--accent);letter-spacing:-.02em}
+.tstats p{margin-top:12px;color:var(--muted);font-size:15.5px;line-height:1.45}
+.proj{list-style:none;margin:34px 0 0;padding:0;border-top:1.5px solid var(--ink)}
+.proj li{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,5fr);gap:24px;padding:26px 0 26px 40px;border-bottom:1px solid rgba(14,14,14,.14);position:relative}
+.proj li::before{content:"✔";position:absolute;left:0;top:28px;color:var(--accent);font-weight:700}
+.proj b{font-family:var(--serif);font-weight:500;font-size:clamp(22px,2.2vw,32px);line-height:1.15}
+.proj span{color:var(--muted);font-size:15.5px;line-height:1.5}
+@media(max-width:900px){.tstats{grid-template-columns:repeat(2,minmax(0,1fr))}.proj li{grid-template-columns:1fr;gap:8px}}
