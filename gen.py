@@ -312,7 +312,7 @@ sv+=f'''<section class="sec sec--tight" id="package">{pkg_block('Полный п
 page('services.html','Услуги и цены · Александр Сербун','Полный пакет ведущего с DJ — 3 200 руб., предоплата 600 руб., фото и видео — 1 200 USD.','services.html',sv)
 
 # ============ GALLERY ============
-G=[('look',[74,40,42,16,70]),('wed',[75,71,65,41,51,55,45]),('party',[61,62,77,4,35,12,17]),('host',[48,64,68,3,72,63,52,6,19,87,49])]
+G=[('look',[74,40,70]),('wed',[75,71,65,45]),('party',[61,62,77,4,35,17]),('host',[48,64,68,63,52,6])]
 gal=phead('Видео и фото',['Как это','<em>выглядит</em>'],'Выступления и фрагменты праздников: свадьбы, вечеринки, тематические образы.','Видео и фото','Кадр')
 gal+='''<section class="sec sec--tight"><div class="wrap">
 <div class="filters"><button class="on" data-f="all">Все</button><button data-f="wed">Свадьбы</button><button data-f="party">Вечеринки</button><button data-f="look">Образы</button><button data-f="host">Портреты</button></div>
