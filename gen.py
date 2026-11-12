@@ -183,7 +183,7 @@ home=f'''<section class="hero" id="hero">
       <a class="tk__row has-arrow sr" href="wedding.html"><span class="tk__n">01</span><h3>Свадьбы</h3><p>Камерные и яркие, без навязанных конкурсов и шаблонных сценариев.</p>{ARROW}</a>
       <a class="tk__row has-arrow sr" href="events.html"><span class="tk__n">02</span><h3>Корпоративы и события</h3><p>Корпоративы, юбилеи, дни рождения, новогодние вечера.</p>{ARROW}</a>
       <a class="tk__row has-arrow sr" href="themes.html"><span class="tk__n">03</span><h3>Праздник в любом образе</h3><p>Мексиканский, кавказский, гангстерский, ретро: костюмированный образ ведущего.</p>{ARROW}</a>
-      <a class="tk__row has-arrow sr" href="services.html"><span class="tk__n">04</span><h3>Что входит в пакеты?</h3><p>Фото и видео, артисты и организация под ключ.</p>{ARROW}</a>
+      <a class="tk__row has-arrow sr" href="services.html"><span class="tk__n">04</span><h3>Услуги и цены</h3><p>Что входит в пакеты? Фото и видео, артисты и организация под ключ.</p>{ARROW}</a>
       <a class="tk__row has-arrow sr" href="gallery.html"><span class="tk__n">05</span><h3>Видео и фото</h3><p>Как это выглядит на самом деле.</p>{ARROW}</a>
       <a class="tk__row has-arrow sr" href="about.html"><span class="tk__n">06</span><h3>Обо мне</h3><p>Ведущий, организатор мероприятий, праздники под ключ.</p>{ARROW}</a>
     </div>
